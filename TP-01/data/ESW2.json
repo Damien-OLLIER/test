@@ -1,0 +1,26 @@
+{
+    "hostname": "ESW2",
+    "interfaces": [
+        {
+        "name": "f1/2",
+        "description": "Gateway interface for student LAN",
+        "ip": "172.16.40.254",
+        "mask": "255.255.255.0",
+        "vlan_id": "10"
+        },
+        {
+        "name": "f1/1",
+        "description": "Gateway interface for teacher LAN",
+        "ip": "172.16.30.254",
+        "mask": "255.255.255.0",
+        "vlan_id": "20"
+        },
+        {
+        "name": "f1/0",
+        "description": "Gateway interface for admin LAN",
+        "ip": "172.16.100.63",
+        "mask": "255.255.255.192",
+        "vlan_id": "99"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "hostname": "R2",
+    "interfaces": [
+        {
+        "name": "g0/0",
+        "description": "Admin Vlan 99 Bat C",
+        "ip": "172.16.100.190",
+        "mask": "255.255.255.192"
+        },
+        {
+        "name": "s1/1",
+        "description": "Connection vers R1",
+        "ip": "192.168.1.1",
+        "mask": "255.255.255.252"
+        }
+    ]
+}
